@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>BrainBuzz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1 class="title">WELCOME TO BRAINBUZZ</h1>
+        <p class="tagline">
+          SHARPEN YOUR MIND, TEST YOUR KNOWLEDGE, AND SEE HOW FAST YOU CAN
+          THINK!
+        </p>
+        <a
+          id="startBtn"
+          class="start-btn"
+          href="Main/SecletGrade.html"
+          role="button"
+          aria-label="Let's Get Started"
+          tabindex="0"
+        >
+          <span class="btn-text">Let’s Get Started</span>
+          <span class="btn-arrow">➜</span>
+        </a>
+      </header>
+    </main>
+
+    <div class="theme-slider" title="Theme">
+      <input
+        id="themeSelect"
+        type="range"
+        min="0"
+        max="2"
+        value="0"
+        aria-label="Theme slider"
+      />
+      <div class="theme-labels" aria-hidden="true">
+        <span data-val="0">System</span>
+        <span data-val="1">Dark</span>
+        <span data-val="2">White</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
